@@ -1,0 +1,208 @@
+/*Aqui começa o reset da página*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Aqui começa a barra de navegação*/
+.barnav{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 12px;
+    font-family: 'Maven Pro', sans-serif;
+}
+/*Aqui termina a barra de navegação*/
+
+/*Aqui começa a sessão de titulo e imagens*/
+
+.sobre_conteudo{
+    /*background-color: orange;*/
+    
+    text-align: center;
+    
+}
+
+
+.title_conteudo{
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.p_conteudo{
+    width: 550px;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.card{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+.img_test{
+    width: 120px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 80px;
+    margin-bottom: 4rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+.name:hover {
+    color: rgb(5, 206, 38);
+   
+}
+
+#btn {
+    width: 20rem;
+    height: 4rem;
+    margin-top: 4rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 4rem;
+    background-color: rgb(0, 235, 252);
+    border-radius: 40px;
+    border-color:rgb(0, 255, 157);
+    border-width: 5px;
+}
+
+#btn:hover{
+    border-color:rgb(2, 76, 212);
+    transition: 1.5s;
+    
+    
+}
+
+/*Aqui é a parte que contém JS*/
+
+
+#container{
+    display: none;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    opacity: 80%;
+    padding-bottom: 50px;
+}
+
+
+.subtitulo{
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.s1{
+    background-color: rgb(45, 252, 172);
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    height: 10rem;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.img_post{
+    width: 100px;
+    margin-left: 3rem;
+}
+
+.disciplina, .sobre_disciplina, .prof_disciplina{
+    margin-bottom: 10px;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/*Aqui termina a sessão de titulo e imagens*/
+
+
+/*Aqui começa o footer da página*/
+
+footer{
+    background-color: rgb(91, 91, 92);
+    height: 100%;
+    width: 100%;
+}
+
+.p_footer{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.img_icons{
+   
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.icons{
+    margin-right: 20px;
+    width: 30px;
+}
+
+.mail{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.icon_mail{
+    width: 15px;
+    align-items: center;
+   
+    
+}
+
+.p_mail{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+/*Aqui termina o footer da página*/

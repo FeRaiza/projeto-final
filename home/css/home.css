@@ -1,0 +1,156 @@
+/*Aqui começa o reset da página*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Aqui começa a barra de navegação*/
+
+
+
+.barnav{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 12px;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+/*Aqui termina a barra de navegação*/
+
+/*Aqui começa o banner principal da página*/
+.div_banner{
+    width: 100%;
+    background-color: rgb(127, 253, 179);
+    
+}
+
+.banner{
+    width: 100%;
+    
+    
+}
+
+/*Aqui termina o banner principal da página*/
+
+/*Aqui começa o conteúdo da página*/
+
+.home_conteudo{
+   /* width: 100%;
+    height: 100%;*/
+    background-color: rgb(127, 253, 179);
+    padding-top: 40px;
+}
+
+.titulo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+.p_home_um{
+    width: 750px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    
+}
+
+.img_home{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.p_home{
+    width: 750px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    padding-bottom: 4rem;
+}
+
+/*Aqui termina o conteúdo da página*/
+
+/*Aqui começa o footer da página*/
+
+footer{
+    background-color: rgb(91, 91, 92);
+    height: 100%;
+    width: 100%;
+}
+
+.p_footer{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.img_icons{
+   
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.icons{
+    margin-right: 20px;
+    width: 30px;
+}
+
+.mail{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.icon_mail{
+    width: 15px;
+    align-items: center;
+   
+    
+}
+
+.p_mail{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+/*Aqui termina o footer da página*/
+

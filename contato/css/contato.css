@@ -1,0 +1,297 @@
+/*Aqui começa o reset da página*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Aqui começa a barra de navegação*/
+.barnav{
+    height: 3rem;
+    width: 100%;
+    background-color:black;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 12px;
+    font-family: 'Maven Pro', sans-serif;
+}
+/*Aqui termina a barra de navegação*/
+
+
+/*Títulos h1*/
+
+.title_depoimento{
+    color: black;
+    transition: 5s;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.title_redes{
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.title_depoimento:hover{
+    color: white;
+    transition: 5s;
+}
+
+
+/*Aqui começa a parte de depoimentos*/
+
+.div_depoimentos{
+    background-color: white;
+    transition: 5s;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div_depoimentos:hover{
+    background-color: black;
+    transition: 5s;
+}
+
+.depoimento{
+    background-color: rgb(154, 91, 255);
+    transition: 2s;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    height: 15rem;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.depoimento:hover{
+    background-color: rgb(91, 189, 255);
+    transition: 2s;
+}
+
+.img_depoimento{
+    width: 180px;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.name_depoimento, .age_depoimento, .depo{
+    margin-bottom: 10px;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/*Aqui termina a parte de depoimentos*/
+
+
+/*Aqui começa a parte de redes sociais*/
+
+.redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.facebook, .instagram, .linkedin{
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.rede{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 30px;
+    margin-bottom: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.fone{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+.icon_email{
+    width: 15px;
+    align-items: center;
+    
+}
+
+.p_email{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 4rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/*Aqui começa o forms da página*/
+
+.title_forms{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+.banner_rigth{
+    float: right;
+    position: absolute;
+    right: 0px;
+    margin-top: 40px;
+    margin-right: 100px;
+    
+
+}
+
+.formulario{
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+#forms{
+        text-align: left;
+        margin-left: 20rem;
+        
+    
+}
+
+#name, #number, #email, .title_caixa{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-right: 50rem;
+    width: 320px;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: none;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+.text{
+    width: 20rem;
+    height: 10rem;
+    margin-right: 50rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.botoes{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 50rem;
+    
+}
+
+.submit{
+    margin-right: 4rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: rgb(56, 247, 18);
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+.reset{
+    width: 6rem;
+    height: 2rem;
+    margin-right: 70px;
+    border-radius: 20px;
+    background-color: rgb(236, 27, 27);
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/*Aqui termina o forms da página*/
+
+/*Aqui começa o footer da página*/
+
+footer{
+    background-color:  rgb(91, 91, 92);
+    height: 100%;
+    width: 100%;
+}
+
+.p_footer{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.img_icons{
+   
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.icons{
+    margin-right: 20px;
+    width: 30px;
+}
+
+.mail{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.icon_mail{
+    width: 15px;
+    align-items: center;
+   
+    
+}
+
+.p_mail{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+/*Aqui termina o footer da página*/
